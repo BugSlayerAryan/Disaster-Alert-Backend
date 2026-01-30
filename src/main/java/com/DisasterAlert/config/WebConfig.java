@@ -10,8 +10,8 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:5173") // React dev server
-                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS","PATCH")
+                .allowedOrigins("https://disaster-alert-omega.vercel.app") // Deployed frontend
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH")
                 .allowedHeaders("*")
                 .allowCredentials(true)
                 .maxAge(3600);
