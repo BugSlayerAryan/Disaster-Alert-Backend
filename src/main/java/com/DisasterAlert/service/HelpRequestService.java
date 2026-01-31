@@ -308,6 +308,13 @@ public class HelpRequestService {
                 "<tr><td style='padding:8px; border:1px solid #d1d5db;'><strong>Message</strong></td>" +
                 "<td style='padding:8px; border:1px solid #d1d5db;'>" + hr.getMessage() + "</td></tr>" +
                 "</table>" +
+                "<div style='margin-top:30px; text-align:center;'>" +
+                "<a href='https://disaster-alert-omega.vercel.app/"  +
+                "style='display:inline-block; padding:14px 36px; background:#0b3d91; color:#ffffff; " +
+                "text-decoration:none; border-radius:8px; font-size:15px; font-weight:600;'>" +
+                "Confirm Assistance Received" +
+                "</a>" +
+                "</div>" +
                 "<p style='margin-top:20px;'>Kindly review the request and initiate necessary action at the earliest.</p>" +
                 "<p>Regards,<br/><strong>Disaster Alert System</strong></p>" +
                 "<hr/><p style='font-size:12px; color:#6b7280; text-align:center;'>This is a system-generated email. Do not reply.</p>" +
